@@ -1,0 +1,20 @@
+5G Vehicle Tracking Display System
+This repository contains MATLAB scripts for simulating and visualizing vehicle tracking in urban air mobility scenarios using 5G Position Reference Signals (PRS). These files provide tools for data generation, processing, and visualization of the tracking process.
+
+Files Overview
+Helper5GTrackingDisplayComponent.m
+This script defines the display components and visualization elements for tracking vehicles in urban air mobility. It includes functions to render tracking data and generate visual outputs.
+
+Helper5GTrackingExampleDisplay.m
+This example script demonstrates how to use the display components to visualize the tracking process. It integrates the tracking data and calls the visualization tools to display vehicle trajectories.
+
+helperGetEmissionSpeedAndTimeScale.m
+This helper function calculates the emission speed and time scale for the tracking process, essential for synchronizing data and ensuring accurate simulation outputs.
+
+Usage
+Setup: Ensure MATLAB is installed on your system.
+Run Example: Use Helper5GTrackingExampleDisplay.m to see the complete demonstration of vehicle tracking visualization.
+Modify: Customize the display components in Helper5GTrackingDisplayComponent.m or tweak the parameters in helperGetEmissionSpeedAndTimeScale.m for specific scenarios.
+Requirements
+MATLAB R2023a or later
+Signal Processing Toolbox
